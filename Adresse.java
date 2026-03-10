@@ -13,11 +13,9 @@ public class Adresse {
         this.Strasse = Strasse;
     }
 
-    public void getVollstaendigeAdressen() {
-        this.Hausnummer = Hausnummer;
-        this.PLZ = PLZ;
-        this.Stadt = Stadt;
-        this.Strasse = Strasse;
+    public String getVollstaendigeAdressen() {
+        String adresse = PLZ + Stadt + Strasse + Hausnummer;
+        return adresse;
 
     }
 }

@@ -22,7 +22,7 @@ public class Kunde {
         System.out.println("------------");
         System.out.printf("Vorname: %s\n", vorname);
         System.out.printf("Nachname: %s\n", nachname);
-        System.out.printf("Adresse: %s\n", anschrift);
+        System.out.printf("Adresse: %s\n", anschrift.getVollstaendigeAdressen());
     }
     public void setAnschrift(Adresse anschrift) {
         this.anschrift = anschrift;

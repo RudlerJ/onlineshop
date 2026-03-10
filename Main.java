@@ -3,9 +3,9 @@ package htl.swp2.OOP.onlineshop.onlineshop;
 public class Main {
     public static void main(String[] args) {
 
-        Adresse a1 = new Adresse("6522", "Prutz", "mühle", "6a");
-        Adresse a2 = new Adresse("6020", "Inssbruck", "Anichstraße", "26");
-        Adresse a3 = new Adresse("6170", "Zirl", "Sonnenweg", "14");
+        Adresse a1 = new Adresse("6522 ",  "Prutz ", "mühle ", "6a ");
+        Adresse a2 = new Adresse("6020 ", "Inssbruck ", "Anichstraße ", "26 ");
+        Adresse a3 = new Adresse("6170 ", "Zirl ", "Sonnenweg ", "14 ");
 
         Kunde k1 = new Kunde("Jonathan", "Rudler", a1);
         Kunde k2 = new Kunde("Peter", "Müller", a2);
